@@ -1,0 +1,145 @@
+# WebWrap Configuration File
+# This file contains all the configuration for your web-to-app wrapper
+
+app:
+  # The name of your application
+  name: "WebWrap Demo"
+
+  # The main website URL to load
+  website_url: "https://flutter.dev"
+
+  # App description
+  description: "A Flutter app that wraps a website"
+
+splash_screen:
+  # Path to splash screen image (relative to assets folder)
+  # Image should be placed in assets/splash/
+  image: "assets/splash/logo.png"
+
+  # Background color in hex format
+  background_color: "#FFFFFF"
+
+  # Duration in seconds
+  duration_seconds: 2
+
+theme:
+  # Dark mode configuration
+  # Mode options: "system" (follows device), "light", "dark"
+  dark_mode: "system"
+
+  # Light theme colors
+  light:
+    # Primary color for the app
+    primary_color: "#2196F3"
+
+    # Status bar color (Android)
+    status_bar_color: "#1976D2"
+
+    # Status bar brightness: "light" or "dark"
+    status_bar_brightness: "dark"
+
+    # Background color for WebView
+    background_color: "#FFFFFF"
+
+  # Dark theme colors
+  dark:
+    # Primary color for the app
+    primary_color: "#1976D2"
+
+    # Status bar color (Android)
+    status_bar_color: "#000000"
+
+    # Status bar brightness: "light" or "dark"
+    status_bar_brightness: "light"
+
+    # Background color for WebView
+    background_color: "#121212"
+
+offline:
+  # Enable offline detection and screen
+  enabled: true
+
+  # Message to show when offline
+  message: "Nessuna connessione internet"
+
+  # Secondary message
+  subtitle: "Controlla la tua connessione e riprova"
+
+  # Show retry button
+  show_retry_button: true
+
+  # Retry button text
+  retry_button_text: "Riprova"
+
+  # Light theme colors
+  light:
+    # Background color for offline screen
+    background_color: "#F5F5F5"
+
+    # Text color
+    text_color: "#333333"
+
+  # Dark theme colors
+  dark:
+    # Background color for offline screen
+    background_color: "#121212"
+
+    # Text color
+    text_color: "#FFFFFF"
+
+webview:
+  # Enable JavaScript
+  enable_javascript: true
+
+  # Enable DOM storage (localStorage, sessionStorage)
+  enable_dom_storage: true
+
+  # Enable zoom controls
+  enable_zoom: false
+
+  # Custom user agent (null = use default)
+  user_agent: null
+
+  # Clear cache on app start
+  clear_cache_on_start: false
+
+  # Clear cookies on app start (set to false to keep user logged in)
+  clear_cookies_on_start: false
+
+  # Enable media playback without user gesture
+  allow_media_playback: true
+
+  # Enable inline media playback (iOS)
+  allow_inline_media_playback: true
+
+# Push Notifications Configuration
+notifications:
+  # Enable push notifications
+  enabled: true
+
+  # Firebase configuration (optional - can be configured separately)
+  # These are placeholders - replace with your actual Firebase config
+  firebase_enabled: false
+
+  # Show notification when app is in foreground
+  show_in_foreground: true
+
+  # Notification sound
+  play_sound: true
+
+  # Notification icon (Android)
+  icon: "@mipmap/ic_launcher"
+
+# URL patterns that should be opened in native apps
+# These URLs will be intercepted and opened with the appropriate native app
+native_url_handlers:
+  - "tel:" # Phone calls
+  - "mailto:" # Email
+  - "sms:" # SMS messages
+  - "geo:" # Geolocation
+  - "maps:" # Maps
+  - "whatsapp:" # WhatsApp
+  - "tg:" # Telegram
+  - "fb:" # Facebook
+  - "twitter:" # Twitter
+  - "instagram:" # Instagram

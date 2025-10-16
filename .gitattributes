@@ -1,0 +1,27 @@
+* text=auto
+
+# Flutter/Dart files
+*.dart text
+*.yaml text
+*.yml text
+*.md text
+
+# Android files
+*.gradle text
+*.properties text
+*.xml text
+
+# iOS files
+*.pbxproj text
+*.plist text
+*.swift text
+*.h text
+*.m text
+
+# Assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
