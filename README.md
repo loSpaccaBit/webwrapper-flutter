@@ -1,4 +1,5 @@
-<img width="1024" height="1024" alt="ChatGPT Image 17 ott 2025, 00_57_17" src="https://github.com/user-attachments/assets/ca8f8685-cb2e-4360-b060-4419c37068cc" />
+
+<img width="300" height="100" alt="Progetto senza titolo (2)" src="https://github.com/user-attachments/assets/c483c98c-32d7-4e8e-b742-ef63b3b41425" />
 
 # WebWrap
 
