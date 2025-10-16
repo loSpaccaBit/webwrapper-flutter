@@ -30,7 +30,7 @@ WebWrap is a lightweight, highly configurable Flutter app that wraps any website
 ### 1. Clone & Install
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/loSpaccaBit/webwrapper-flutter.git
 cd webwrap
 flutter pub get
 ```
