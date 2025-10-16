@@ -1,11 +1,15 @@
+<img width="1024" height="1024" alt="ChatGPT Image 17 ott 2025, 00_57_17" src="https://github.com/user-attachments/assets/ca8f8685-cb2e-4360-b060-4419c37068cc" />
+
 # WebWrap
 
 **Transform any website into a native mobile app with Flutter**
 
 WebWrap is a lightweight, highly configurable Flutter app that wraps any website into a native mobile experience. Perfect for quickly deploying web apps to iOS and Android app stores.
 
-<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2025-10-17 at 01 26 36" src="https://github.com/user-attachments/assets/45e470ae-5865-4a13-a8b9-dd5f9c4d6d11" />
-<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2025-10-17 at 01 26 24" src="https://github.com/user-attachments/assets/85d0939e-ec9d-4326-b00d-32a6b81c35aa" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/45e470ae-5865-4a13-a8b9-dd5f9c4d6d11" width="49%" alt="Simulator Screenshot - iPhone 17 Pro Max - 2025-10-17 at 01 26 36" />
+  <img src="https://github.com/user-attachments/assets/85d0939e-ec9d-4326-b00d-32a6b81c35aa" width="49%" alt="Simulator Screenshot - iPhone 17 Pro Max - 2025-10-17 at 01 26 24" />
+</p>
 
 
 ## Features
@@ -20,6 +24,7 @@ WebWrap is a lightweight, highly configurable Flutter app that wraps any website
 ✅ **Store Ready** - Meets Apple and Google Play requirements
 
 ## Quick Start
+
 
 ### 1. Clone & Install
 
